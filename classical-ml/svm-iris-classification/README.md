@@ -163,7 +163,7 @@ Implementation of Support Vector Machine (SVM) classification with comprehensive
 
 ### Decision Boundary Visualization
 
-![Iris SVM Decision Boundaries](images/output_06_1.png)
+![Iris SVM Decision Boundaries](images/output_04_0.png)
 *Decision boundaries demonstrating kernel-based classification of iris species with support vectors marked. The visualization shows how both linear and RBF kernels separate the three iris classes, with the non-linear RBF kernel capturing more complex decision regions compared to the linear approach.*
 
 This project demonstrates solid understanding of kernel methods and classification algorithms essential for machine learning practitioners.
