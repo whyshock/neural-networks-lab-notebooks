@@ -1,6 +1,6 @@
 # Neural Networks Lab Notebooks
 
-A collection of 23 deep learning and machine learning projects—each one an exploration of how neural networks solve real-world problems. From real-time object detection to generative models, these projects show both the theory and the practice, with actual code, results, and honest reflections on what worked and what didn't.
+A collection of 14 deep learning and machine learning projects—each one an exploration of how neural networks solve real-world problems. From real-time object detection to generative models, these projects show both the theory and the practice, with actual code, results, and honest reflections on what worked and what didn't.
 
 ## Overview
 
@@ -8,7 +8,7 @@ This repo is structured around a simple question: *how do you actually build mac
 
 ## What's Inside
 
-### Computer Vision (10 projects)
+### Computer Vision (8 projects)
 **Real problems that touch images:** detecting objects, finding faces, understanding geometry, and pushing pixels into different artistic styles.
 
 - **YOLO Object Detection** — Single network, multiple boxes, 45-65 FPS on GPU. The speed vs accuracy tradeoff made practical.
@@ -17,19 +17,15 @@ This repo is structured around a simple question: *how do you actually build mac
 - **FCN Text Detection** — Fully convolutional approach to locating text regions. Works because the network learns to ignore everything except text.
 - **Fruit Classification (Quick Draw)** — Taking sketches from Quick Draw and training a CNN that actually recognizes them.
 - **Facial Expression Recognition** — 7 emotions from pixels. The hard part: why are angry and disgusted so similar to the network?
-- **3D Multi-view Reconstruction** — Taking multiple camera views and reconstructing 3D geometry. Structure from motion the Open3D way.
 - **Photo-to-Cartoon Stylization (Toonify)** — StyleGAN2 adapted for turning photos into cartoon art. Generative models doing something creative.
-- **HED Tutorial (BSDS)** — Deep dive into edge detection on Berkeley segmentation benchmarks.
 - **Caffe Text Detection Setup** — The infrastructure: CUDA, Caffe, compiling everything from scratch for GPU acceleration.
 
-### Deep Learning (5 projects)
+### Deep Learning (3 projects)
 **Building and understanding neural networks from the ground up.**
 
 - **MNIST CNN** — The hello world of deep learning, but with 99.36% accuracy and visualizations showing what the network actually learns.
 - **Breast Cancer Neural Network** — Implementing backpropagation from scratch. Teaches you what frameworks hide.
 - **Number Addition (TensorFlow)** — Regression networks predicting the sum of two numbers. Simple problem, but shows the pipeline.
-- **VGG-LSTM Video Analysis** — Combining CNNs for spatial features with LSTMs for temporal patterns. How networks understand video.
-- **VGG-Face GRU Emotion** — Transfer learning with VGG face embeddings feeding into a GRU. Standing on the shoulders of pre-trained models.
 
 ### Natural Language Processing (1 project)
 - **GPT-2 Investigation** — What is a large language model? How does it generate text? What are the implications?
@@ -37,9 +33,6 @@ This repo is structured around a simple question: *how do you actually build mac
 ### Time Series & Classical ML (2 projects)
 - **Holt-Winters Forecasting** — Exponential smoothing with trend and seasonality. Classical ML that often works better than people expect.
 - **SVM Iris Classification** — Support vector machines with multiple kernels. Understanding how kernel methods separate data.
-
-### Incomplete / Setup Projects (5 projects)
-Documentation and setup guides for infrastructure and dependencies.
 
 ## What You'll Actually Find
 
@@ -73,7 +66,7 @@ Some numbers from the projects:
 | YOLO Detection | 45-65 FPS on GPU | Real-time speed actually possible |
 | SVM Iris | Linear & RBF kernels | Different decision boundaries for different kernels |
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 ```
 neural-networks-lab-notebooks/
@@ -84,22 +77,18 @@ neural-networks-lab-notebooks/
 │   ├── text-detection-fcn/
 │   ├── fruit-classification-quickdraw/
 │   ├── facial-expression-cnn/
-│   ├── multiview-3d-reconstruction/
 │   ├── toonify-cartoonization/
-│   ├── hed-tutorial/
-│   └── caffe-text-detection-setup/
+│   └── caffe-text-detection/
 ├── deep-learning/
 │   ├── mnist-cnn/
 │   ├── breast-cancer-neural-network/
-│   ├── number-addition-tensorflow/
-│   ├── vgg-lstm-video-analysis/
-│   └── vgg-face-gru-emotion/
+│   └── number-addition-tensorflow/
 ├── nlp/
 │   └── gpt2-investigation/
-├── time-series/
-│   └── holt-winters-forecasting/
 ├── classical-ml/
 │   └── svm-iris-classification/
+├── time-series/
+│   └── holt-winters-forecasting/
 └── README.md (this file)
 ```
 
@@ -198,6 +187,6 @@ Built with Google Colab for GPU computing, various open-source datasets (MNIST, 
 
 ---
 
-**23 projects** | **17+ visualizations** | **50+ pages of documentation** | **15,000+ lines of code**
+**14 projects** | **17+ visualizations** | **40+ pages of documentation** | **12,000+ lines of code**
 
 Last updated: March 26, 2026
