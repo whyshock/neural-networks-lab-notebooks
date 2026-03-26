@@ -56,3 +56,17 @@ More importantly: if MNIST is solved, why do real-world digit recognition still 
 ---
 
 *If a network achieves 99% accuracy on MNIST but fails on real handwriting, did it solve the problem or solve the dataset?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 04 1](images/output_04_1.png)
+
+![Output 2: output 07 1](images/output_07_1.png)
+
+![Output 3: output 14 1](images/output_14_1.png)
+
+![Output 4: output 19 0](images/output_19_0.png)
+
+![Output 5: output 22 0](images/output_22_0.png)

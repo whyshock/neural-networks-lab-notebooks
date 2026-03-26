@@ -70,3 +70,9 @@ Toonification is benign. Fun. But it reveals a capability you could use for othe
 ---
 
 *If a generative model learns to transform faces by absorbing aesthetic biases from training data, are we creating art or reproducing cultural prejudices?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 10 0](images/output_10_0.png)

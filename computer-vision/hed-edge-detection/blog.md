@@ -48,3 +48,11 @@ It's specialized to the training distribution, and doesn't know it.
 ---
 
 *If a network learns edge detection from human annotations, is it learning to detect edges or learning to predict what humans would find important?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 11 0](images/output_11_0.png)
+
+![Output 2: output 11 1](images/output_11_1.png)

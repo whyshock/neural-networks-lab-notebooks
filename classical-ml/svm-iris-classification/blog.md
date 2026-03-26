@@ -63,3 +63,9 @@ The switch from SVM to neural networks was a shift from "find optimal boundaries
 ---
 
 *If SVM finds optimal boundaries in feature space and neural networks learn optimal features, which solves the harder problem?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 04 0](images/output_04_0.png)

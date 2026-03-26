@@ -35,3 +35,13 @@ But here's what keeps me thinking: If a perfectly trained neural network can't e
 ---
 
 *If a machine can learn to classify cancer with 99% accuracy but cannot tell you which features matter most, have we solved the problem or just hidden it?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 08 1](images/output_08_1.png)
+
+![Output 2: output 08 2](images/output_08_2.png)
+
+![Output 3: output 10 1](images/output_10_1.png)

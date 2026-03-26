@@ -43,3 +43,11 @@ When you build a system that reads emotions, you're betting that external signs 
 ---
 
 *If a network can learn to classify facial expressions with 70% accuracy, is it understanding emotions or just identifying surface patterns that correlate with emotion labels?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 10 0](images/output_10_0.png)
+
+![Output 2: output 11 0](images/output_11_0.png)

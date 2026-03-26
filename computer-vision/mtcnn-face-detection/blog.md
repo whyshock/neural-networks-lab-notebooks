@@ -60,3 +60,9 @@ It should generalize across faces. But it doesn't perfectly. Because training da
 ---
 
 *If a network detects 95% of faces reliably, is it good face detection or detection biased toward the 95% it was trained on?*
+
+## Outputs
+
+Notebook output snapshots:
+
+![Output 1: output 06 1](images/output_06_1.png)
